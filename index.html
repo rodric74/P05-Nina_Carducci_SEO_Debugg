@@ -6,6 +6,10 @@
       name="description"
       content="Nina Carducci, photographe professionnelle réalise vos projets photos pour des occasions spéciales, des portraits, des entreprises et plus encore."
     />
+    <meta
+      name="keywords"
+      content="photographe, photo, portrait, entreprise, mariage, concert"
+    />
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -16,6 +20,22 @@
     />
     <meta charset="UTF-8" />
     <title>La Photographe Nina Carducci réalise vos projets photo</title>
+    <script type="application/ld+json">
+      {
+        "@context": "http://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci - Photographe",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "France"
+        },
+        "telephone": "+33556677889",
+        "openingHours": ["Mo-Fr 10:00-19:00"]
+      }
+    </script>
   </head>
   <body>
     <header class="top-header">
@@ -93,7 +113,7 @@
               <img
                 src="./assets/images/slider/ryoji-iwata-wUZjnOv7t0g-unsplash.webp"
                 width="100%"
-                height="100%"
+                height="auto"
                 class="d-block w-100"
                 alt="photo homme en costume de dos qui marche dynamiquement"
               />
@@ -102,7 +122,7 @@
               <img
                 src="./assets/images/slider/nicholas-green-nPz8akkUmDI-unsplash.webp"
                 width="100%"
-                height="100%"
+                height="auto"
                 class="d-block w-100"
                 alt="photo de la foule durant un concert"
               />
@@ -111,14 +131,14 @@
               <img
                 src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
                 width="100%"
-                height="100%"
+                height="auto"
                 class="d-block w-100"
                 alt="photo des mariés qui échangent un baisé passionné"
               />
             </div>
           </div>
           <button
-            class="carousel-control-prev"
+            class="carousel-control-prev mg-prev"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="prev"
@@ -128,7 +148,7 @@
             <span class="visually-hidden">Précédent</span>
           </button>
           <button
-            class="carousel-control-next"
+            class="carousel-control-next mg-next"
             type="button"
             data-bs-target="#carouselExampleIndicators"
             data-bs-slide="next"
@@ -145,7 +165,7 @@
           <img
             src="./assets/images/nina.webp"
             width="465px"
-            height="465px"
+            height="auto"
             alt="portrait de nina carducci"
           />
         </div>
@@ -153,9 +173,9 @@
           <h2 class="about-me__title">A propos de moi</h2>
           <p class="about-me__introduction">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
-            prédestiné. Saisir un moment, une émotion, une situation, un
-            endroit, une lumière et les rendre immortels, voilà ce qui me fait
-            vibrer.
+            prédestiné. <br />
+            Saisir un moment, une émotion, une situation, un endroit, une
+            lumière et les rendre immortels, voilà ce qui me fait vibrer.
           </p>
           <p>
             Nous passons notre vie à chercher le bonheur, et lorsque nous y
@@ -321,14 +341,27 @@
             <img
               src="./assets/images/camera.webp"
               width="418px"
-              height="418px"
+              height="auto"
               alt="photo appareil photo de nina carducci"
             />
           </div>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer class="footer-container">
+      <div itemscope itemtype="http://schema.org/LocalBusiness">
+        <span itemprop="name">Nina Carducci - Photographe :</span>
+        <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
+        <span itemprop="addressLocality">Bordeaux</span>
+        <span itemprop="postalCode">33200</span>
+      </div>
+      <div class="telephone">
+        Téléphone:
+        <span itemprop="telephone">05 56 67 78 89</span>
+        - Disponible du:
+        <span itemprop="openingHours">lundi au vendredi de 10 h à 19 h.</span>
+      </div>
+    </footer>
     <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.4.1.min.js"
