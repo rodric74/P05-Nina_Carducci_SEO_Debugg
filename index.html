@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
     <meta
       name="description"
@@ -30,10 +30,8 @@
               class="social-link"
               href="https://www.instagram.com/ninacarducci.photo/?hl=fr"
               target="_blank"
-              ><img
-                src="assets/images/instagram.png"
-                alt="Instagram de Nina Carducci"
-              />
+              aria-label="Visitez la page Instagram de Nina Carducci"
+              ><img src="assets/images/instagram.png" alt="Logo Instagram" />
               /></a
             >
           </li>
@@ -96,6 +94,7 @@
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
+          aria-label="Slide précédent"
         >
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
@@ -105,6 +104,7 @@
           type="button"
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
+          aria-label="Slide suivant"
         >
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
@@ -274,9 +274,9 @@
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
           <form action="" method="post">
-            <label>Nom</label>
+            <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />
-            <label>Email</label>
+            <label for="email">Email</label>
             <input type="email" name="email" id="email" />
             <label>Message</label>
             <textarea
