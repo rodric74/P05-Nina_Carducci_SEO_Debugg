@@ -10,6 +10,48 @@
       name="keywords"
       content="photographe, photo, portrait, entreprise, mariage, concert"
     />
+    <!--  Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://rodric74.github.io/P05-Nina_Carducci_SEO_Debugg/"
+    />
+    <meta
+      property="og:title"
+      content="La Photographe Nina Carducci réalise vos projets photo"
+    />
+    <meta
+      property="og:description"
+      content="Nina Carducci, photographe professionnelle réalise vos projets photos pour des occasions spéciales, des portraits, des entreprises et plus encore."
+    />
+    <meta
+      property="og:image"
+      content="https://rodric74.github.io/P05-Nina_Carducci_SEO_Debugg/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+    />
+    <!-- ---- Instagram --- -->
+    <meta
+      property="og:url"
+      content="https://www.instagram.com/ninacarducci.photo/?hl=fr"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta
+      property="twitter:url"
+      content="https://rodric74.github.io/P05-Nina_Carducci_SEO_Debugg"
+    />
+    <meta
+      property="twitter:title"
+      content="La Photographe Nina Carducci réalise vos projets photo"
+    />
+    <meta
+      property="twitter:description"
+      content="Nina Carducci, photographe professionnelle réalise vos projets photos pour des occasions spéciales, des portraits, des entreprises et plus encore."
+    />
+    <meta
+      property="twitter:image"
+      content="https://rodric74.github.io/P05-Nina_Carducci_SEO_Debugg/assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
+    />
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css" />
     <link rel="stylesheet" href="./assets/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -38,9 +80,9 @@
     </script>
   </head>
   <body>
-    <header class="top-header">
+    <header class="top-header" role="banner">
       <h1 class="name">Nina Carducci</h1>
-      <nav class="nav">
+      <nav class="nav" role="navigation">
         <ul>
           <li>
             <a href="#about" aria-label="Aller à la section À propos"
@@ -79,8 +121,8 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <section id="carrousel">
+    <main role="main">
+      <section id="carrousel" role="region aria-label="Carrousel images">
         <div
           id="carouselExampleIndicators"
           class="carousel slide"
@@ -157,7 +199,7 @@
         </div>
       </section>
 
-      <section id="about">
+      <section id="about" role="region" aria-label="À propos">
         <div class="picture left">
           <img
             src="./assets/images/nina.webp"
@@ -187,7 +229,7 @@
           </p>
         </div>
       </section>
-      <section id="gallery">
+      <section id="gallery" role="region" aria-label="Galerie">
         <h2 class="title">Portfolio</h2>
         <div class="container py-3">
           <div class="gallery" style="display: none">
@@ -248,7 +290,7 @@
           </div>
         </div>
       </section>
-      <div class="quote">
+      <div class="quote" role="region" aria-label="Citation">
         <blockquote id="quote__text">
           Un portrait n’est pas une ressemblance. Dès lors qu’une émotion ou
           qu’un fait est traduit en photo, il cesse d’être un fait pour devenir
@@ -257,7 +299,7 @@
         </blockquote>
         <span class="quote__author">- Richard Avedon</span>
       </div>
-      <section id="services">
+      <section id="services" role="region" aria-label="Services">
         <h2 class="title">Mes services</h2>
         <div class="container">
           <div class="service">
@@ -303,7 +345,7 @@
           </div>
         </div>
       </section>
-      <div class="quote">
+      <div class="quote" role="region" aria-label="Citation">
         <blockquote id="quote__text">
           De manière inconsciente, je crois, je guette un regard, une
           expression, des traits ou une nostalgie capable de résumer ou plus
@@ -311,7 +353,7 @@
         </blockquote>
         <span class="quote__author">- Richard Avedon</span>
       </div>
-      <section id="contact">
+      <section id="contact" role="form" aria-label="Contact">
         <div class="container">
           <div class="form-container">
             <h2>Une question ? Une demande de devis ?</h2>
@@ -345,7 +387,7 @@
         </div>
       </section>
     </main>
-    <footer class="footer-container">
+    <footer class="footer-container" role="contentinfo">
       <div itemscope itemtype="http://schema.org/LocalBusiness">
         <span itemprop="name">Nina Carducci - Photographe :</span>
         <span itemprop="streetAddress">68 avenue Alsace-Lorraine</span>
