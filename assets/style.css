@@ -87,9 +87,9 @@ body {
   justify-content: center;
 }
 
-.nav-link.active,
+.nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
-  color: #fff;
+  color: #000000;
   background-color: #beb45a;
   border-radius: 0;
 }
@@ -99,16 +99,10 @@ body {
   cursor: pointer;
 }
 
-/* AJOUT POUR GESTION FILTRE COULEUR  */
-
-.nav-link {
-  cursor: pointer;
-}
-
 .nav-link:hover,
 .nav-link.active-tag {
   background-color: #beb45a;
-  color: #ffffff;
+  color: #000000;
   border-radius: 0;
 }
 
