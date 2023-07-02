@@ -86,15 +86,34 @@ body {
 .gallery .nav {
   justify-content: center;
 }
-.nav-pills .nav-link.active,
+
+.nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #beb45a;
   border-radius: 0;
 }
+
 .nav-pills .nav-link {
   color: #000;
+  cursor: pointer;
 }
+
+/* AJOUT POUR GESTION FILTRE COULEUR  */
+
+.nav-link {
+  cursor: pointer;
+}
+
+.nav-link:hover,
+.nav-link.active-tag {
+  background-color: #beb45a;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+/* FIN AJOUT GESTION FILTRE  */
+
 .item-column {
   position: relative;
   margin-bottom: 0 !important;
