@@ -241,12 +241,13 @@ input[type="submit"] {
   align-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: #f6d2b8;
+  background-color: #d8d3a8;
 }
 
 .hx-fontsize {
   font-size: 15px;
-  padding: 5px;
+  padding: 10px;
+  margin: 0;
 }
 
 @media all and (max-width: 1180px) {
