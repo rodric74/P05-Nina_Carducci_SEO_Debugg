@@ -147,6 +147,7 @@ body {
   font-family: Spectral;
   font-style: italic;
   font-weight: 300;
+  font-size: 2.5rem;
 }
 .quote__author {
   font-family: Spectral;
@@ -233,6 +234,21 @@ input[type="submit"] {
   background-color: #beb45a;
   padding: 0.5em 1em;
 }
+
+.footer-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #f6d2b8;
+}
+
+.hx-fontsize {
+  font-size: 15px;
+  padding: 5px;
+}
+
 @media all and (max-width: 1180px) {
   .picture {
     flex: 2;
