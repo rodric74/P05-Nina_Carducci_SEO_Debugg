@@ -232,4 +232,11 @@
       });
     },
   };
+
+  $(document).ready(function() {
+    $('#top').on('click', function(event) {
+        event.preventDefault();
+        $('html, body').animate({scrollTop: 0}, 600);
+    });
+});
 })(jQuery);
