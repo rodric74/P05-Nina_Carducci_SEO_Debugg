@@ -65,20 +65,18 @@ h1{
   left: 0;
   z-index: -1;
 }
+
+.picturenina {
+  width: 100%;
+  height: auto;
+}
+
 .picture {
   flex: 1;
   margin: 0 20px;
   z-index: 0;
 }
-.picture img {
-  width: 100%;
-  height: auto;
-}
 
-.picture left{
-  width: 50%;
-  height: Auto;
-}
 #about-me {
   flex: 2;
 }
