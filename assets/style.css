@@ -67,8 +67,10 @@ body {
   }
   
   .picturenina {
-    width: 450px;
+    width: 100%;
     height: auto;
+    max-width: 450px;
+    max-height: 450px;
   }
   
   .picture {
