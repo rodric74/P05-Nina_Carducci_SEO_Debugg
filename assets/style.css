@@ -48,6 +48,8 @@ body {
   .d-block{
     max-width: 1920px;
     max-height: 887px;
+    width: 100%;
+    height: auto;
   }
 
   .carousel-item {
