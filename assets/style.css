@@ -78,6 +78,8 @@ body {
   .pictureright{
     max-width: 418px;
     max-height: 418px;
+    width: 100%;
+    height: auto;
   }
   
   .picturenina {
