@@ -72,16 +72,12 @@ body {
     z-index: -1;
   }
 
-  .picture.right{
-    width: 100%;
-    height: auto;
+  .pictureright{
     max-width: 418px;
     max-height: 418px;
   }
   
   .picturenina {
-    width: 100%;
-    height: auto;
     max-width: 450px;
     max-height: 450px;
   }
