@@ -7,7 +7,6 @@
 - [🚀 Étapes Clés](#-étapes-clés)
 - [🎯 Compétences Évaluées](#-compétences-évaluées)
 - [🎤 Soutenance](#-soutenance)
-- [📞 Contact](#-contact)
 
 ## 📖 À Propos du Projet
 Ce projet a été réalisé dans le cadre d'une évaluation de compétences en optimisation de site web. L'objectif principal était d'améliorer les performances, le SEO, l'accessibilité et de corriger certains bugs du site web d'un architecte.
