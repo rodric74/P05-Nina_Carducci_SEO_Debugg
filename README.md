@@ -46,7 +46,4 @@ Ce projet a été réalisé dans le cadre d'une évaluation de compétences en o
 **Remarques** :
 La présentation effectuée par l'étudiant a été plutôt complète et détaillée. Tous les points essentiels ont été abordés de façon très détaillée, montrant une bonne maîtrise des processus d'optimisation et d'amélioration d'un site web. Bonne performance. Bravo.
 
-## 📞 Contact
-Pour toute question ou commentaire, n'hésitez pas à me contacter.
-
 **Beau travail et bonne continuation !** 🎉
