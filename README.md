@@ -4,20 +4,11 @@
 
 ## 📌 Table des Matières
 - [📖 À Propos du Projet](#-à-propos-du-projet)
-- [🚀 Étapes Clés](#-étapes-clés)
 - [🎯 Compétences Évaluées](#-compétences-évaluées)
 - [🎤 Soutenance](#-soutenance)
 
 ## 📖 À Propos du Projet
 Ce projet a été réalisé dans le cadre d'une évaluation de compétences en optimisation de site web. L'objectif principal était d'améliorer les performances, le SEO, l'accessibilité et de corriger certains bugs du site web d'un architecte.
-
-## 🚀 Étapes Clés
-
-1. **Récupération dynamique des données** : Utilisation de la version 1 de l’API développée pour récupérer les données des travaux. Les informations nécessaires pour les différentes routes sont fournies via le document Swagger.
-2. **Tri des projets par catégorie** : Mise en place d'un système de filtrage pour afficher les travaux selon leur catégorie. Par exemple, en cliquant sur "Office", seuls les travaux de cette catégorie sont affichés.
-3. **Intégration de la page de connexion** : Mise en place d'un formulaire de connexion. En cas d'erreur d'identification, un message d'erreur est affiché. Une fois connecté, l'utilisateur accède à une version éditée du site.
-4. **Gestion des projets via une modale** : Création d'une fenêtre modale pour gérer la liste des projets. Les projets sont affichés comme indiqué dans le design. Il est possible de supprimer un travail en cliquant sur l'icône de la corbeille.
-5. **Formulaire d'ajout de projet** : Mise en place d'un formulaire permettant d'ajouter un projet avec une image, un nom et une catégorie.
 
 ### 📸 Captures d'écran de Lighthouse
 
